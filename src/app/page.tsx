@@ -149,7 +149,7 @@ export default function ITSupportPage() {
       name: 'Sarah Johnson',
       role: 'CEO',
       company: 'Isosceles Finance Ltd',
-      content: 'Great service, could not be happier with the speedy response. Will recommend to others looking for an outsourced IT provider. A+',
+      content: 'Great service, could not be happier with speedy response. Will recommend Guruji Tech Global to others looking for an outsourced IT provider. A+',
     },
     {
       name: 'Michael Chen',
@@ -161,7 +161,7 @@ export default function ITSupportPage() {
       name: 'Emily Davis',
       role: 'Managing Director',
       company: 'Growth Partners',
-      content: 'Professional, reliable, and always available. They truly understand our business needs and deliver solutions that work.',
+      content: 'Professional, reliable, and always available. Guruji Tech Global truly understands our business needs and delivers solutions that work.',
     },
   ];
 
@@ -179,7 +179,7 @@ export default function ITSupportPage() {
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center space-x-2">
-              <img src="/logo.png" alt="Your Company Name" className="h-8 w-auto" />
+              <img src="/logo.png" alt="Guruji Tech Global" className="h-10 w-auto" />
             </div>
             <nav className="hidden md:flex items-center space-x-8">
               <a href="#services" className="text-sm font-medium text-gray-700 hover:text-emerald-600 transition-colors">
@@ -225,7 +225,7 @@ export default function ITSupportPage() {
                   </span>
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                  Customised IT support designed for businesses. Our dedicated team delivers dependable,
+                  Guruji Tech Global delivers customised IT support designed for businesses. Our dedicated team provides dependable,
                   prompt solutions to ensure your systems operate seamlessly. Trust us to empower your
                   business with cutting-edge technology and exceptional customer care.
                 </p>
@@ -321,7 +321,7 @@ export default function ITSupportPage() {
                 Comprehensive IT Solutions
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                From managed support to cloud migration, we provide end-to-end IT services tailored to your business needs.
+                From managed support to cloud migration, Guruji Tech Global provides end-to-end IT services tailored to your business needs.
               </p>
             </div>
 
@@ -358,7 +358,7 @@ export default function ITSupportPage() {
                   Your Trusted IT Partner
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  We take pride in delivering exceptional IT support, empowering businesses to grow with reliable
+                  Guruji Tech Global takes pride in delivering exceptional IT support, empowering businesses to grow with reliable
                   and forward-thinking solutions. Our all-encompassing support services ensure your systems are secure,
                   optimised, and aligned with your company's goals.
                 </p>
@@ -405,7 +405,7 @@ export default function ITSupportPage() {
                 Hassle-Free Onboarding
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Our streamlined process ensures a smooth transition to our managed IT services with minimal disruption.
+                Guruji Tech Global's streamlined process ensures a smooth transition to our managed IT services with minimal disruption.
               </p>
             </div>
 
@@ -446,7 +446,7 @@ export default function ITSupportPage() {
                 What Our Clients Say
               </h2>
               <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-                Don't just take our word for it. Here's what our clients have to say about our services.
+                Don't just take our word for it. Here's what our clients have to say about Guruji Tech Global services.
               </p>
             </div>
 
@@ -493,7 +493,7 @@ export default function ITSupportPage() {
                   Let's Discuss Your IT Needs
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  Ready to transform your IT infrastructure? Contact us today for a free consultation and discover
+                  Ready to transform your IT infrastructure? Contact Guruji Tech Global today for a free consultation and discover
                   how our managed IT services can benefit your business.
                 </p>
 
@@ -513,7 +513,7 @@ export default function ITSupportPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                      <p className="text-gray-600">info@techguard-it.com</p>
+                      <p className="text-gray-600">info@gurujitechglobal.com</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
@@ -620,10 +620,10 @@ export default function ITSupportPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <img src="/logo.png" alt="Your Company Name" className="h-8 w-auto" />
+                <img src="/logo.png" alt="Guruji Tech Global" className="h-8 w-auto" />
               </div>
               <p className="text-gray-400 leading-relaxed">
-                Your trusted partner for comprehensive IT support and managed services.
+                Guruji Tech Global - Your trusted partner for comprehensive IT support and managed services.
               </p>
             </div>
 
@@ -693,7 +693,7 @@ export default function ITSupportPage() {
                 </li>
                 <li className="flex items-start space-x-2">
                   <Mail className="h-4 w-4 mt-1 flex-shrink-0" />
-                  <span>info@techguard-it.com</span>
+                  <span>info@gurujitechglobal.com</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <MapPin className="h-4 w-4 mt-1 flex-shrink-0" />
@@ -708,7 +708,7 @@ export default function ITSupportPage() {
           </div>
 
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
-            <p>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Guruji Tech Global. All rights reserved.</p>
           </div>
         </div>
       </footer>
