@@ -1,4 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
+import {
+  sendContactNotification,
+  sendContactConfirmation,
+} from '@/lib/email';
 
 export async function POST(request: NextRequest) {
   try {
@@ -32,8 +36,48 @@ export async function POST(request: NextRequest) {
       timestamp: new Date().toISOString(),
     });
 
+    // Send notification email to admin
+    console.log('📧 Sending admin notification...');
+    const adminNotification = await sendContactNotification({
+      name,
+      email,
+      phone,
+      company,
+      message,
+    });
+
+    if (!adminNotification.success) {
+      console.error('❌ Failed to send admin notification:', adminNotification.error);
+      // Continue with confirmation email even if admin notification fails
+    } else {
+      console.log('✅ Admin notification sent successfully to:', process.env.ADMIN_EMAIL);
+    }
+
+    // Send confirmation email to the submitter
+    console.log('📧 Sending confirmation email to:', email);
+    const confirmationEmail = await sendContactConfirmation({
+      name,
+      email,
+      phone,
+      company,
+      message,
+    });
+
+    if (!confirmationEmail.success) {
+      console.error('❌ Failed to send confirmation email:', confirmationEmail.error);
+      return NextResponse.json(
+        { error: 'Form submitted but email confirmation failed. Please contact us directly.' },
+        { status: 500 }
+      );
+    } else {
+      console.log('✅ Confirmation email sent successfully to:', email);
+    }
+
     return NextResponse.json(
-      { message: 'Contact form submitted successfully' },
+      {
+        message: 'Contact form submitted successfully',
+        emailSent: true,
+      },
       { status: 200 }
     );
   } catch (error) {
