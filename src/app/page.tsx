@@ -179,9 +179,8 @@ export default function ITSupportPage() {
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center space-x-2">
-  {/* Replace this with your logo image */}
-  <img src="/logo.png" alt="Your Company Name" className="h-8 w-auto" />
-</div>
+              <img src="/logo.png" alt="Your Company Name" className="h-8 w-auto" />
+            </div>
             <nav className="hidden md:flex items-center space-x-8">
               <a href="#services" className="text-sm font-medium text-gray-700 hover:text-emerald-600 transition-colors">
                 Services
@@ -621,11 +620,8 @@ export default function ITSupportPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-600">
-                  <Shield className="h-5 w-5 text-white" />
-                <div className="flex items-center space-x-2">
-  <img src="/logo.png" alt="Your Company Name" className="h-8 w-auto" />
-</div>
+                <img src="/logo.png" alt="Your Company Name" className="h-8 w-auto" />
+              </div>
               <p className="text-gray-400 leading-relaxed">
                 Your trusted partner for comprehensive IT support and managed services.
               </p>
@@ -712,7 +708,7 @@ export default function ITSupportPage() {
           </div>
 
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
-            <p>&copy; {new Date().getFullYear()} TechGuard IT. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
           </div>
         </div>
       </footer>
