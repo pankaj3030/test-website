@@ -14,20 +14,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TechGuard IT - Professional IT Support Services",
-  description: "Reliable IT support and managed services for businesses. 24/7 support, cyber security, cloud solutions, and Microsoft 365. Your trusted IT partner in Coventry.",
-  keywords: ["IT Support", "Managed IT Services", "Cyber Security", "Cloud Solutions", "Microsoft 365", "Coventry", "Business IT"],
-  authors: [{ name: "TechGuard IT" }],
+  title: "Guruji Tech Global - Professional IT Support Services",
+  description: "Guruji Tech Global delivers reliable IT support and managed services for businesses. 24/7 support, cyber security, cloud solutions, and Microsoft 365. Your trusted IT partner.",
+  keywords: ["IT Support", "Managed IT Services", "Cyber Security", "Cloud Solutions", "Microsoft 365", "Business IT", "Guruji Tech Global"],
+  authors: [{ name: "Guruji Tech Global" }],
   openGraph: {
-    title: "TechGuard IT - Professional IT Support Services",
+    title: "Guruji Tech Global - Professional IT Support Services",
     description: "Reliable IT support and managed services for businesses. 24/7 support, cyber security, and cloud solutions.",
-    url: "https://techguard-it.com",
-    siteName: "TechGuard IT",
+    url: "https://gurujitechglobal.com",
+    siteName: "Guruji Tech Global",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TechGuard IT - Professional IT Support Services",
+    title: "Guruji Tech Global - Professional IT Support Services",
     description: "Reliable IT support and managed services for businesses.",
   },
 };
