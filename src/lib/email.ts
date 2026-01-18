@@ -17,7 +17,7 @@ interface ContactEmailData {
 export async function sendContactNotification(data: ContactEmailData) {
   const { name, email, phone, company, message } = data;
 
-  const adminEmail = process.env.ADMIN_EMAIL || 'info@gurujitechglobal.com';
+  const adminEmail = process.env.ADMIN_EMAIL || 'aditya@gurujitechglobal.com';
 
   try {
     const result = await resend.emails.send({
